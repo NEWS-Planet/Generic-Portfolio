@@ -3,6 +3,6 @@ export default {
       path: '/*',
     }),
     home: Object.freeze({ path: '/home' }),
-    aboutUs: Object.freeze({ path: '/about us' }),
-    talentPool: Object.freeze({ path: '/Talent Pool' })
+    aboutUs: Object.freeze({ path: '/aboutUs' }),
+    talentPool: Object.freeze({ path: '/talentPool' })
   };

@@ -1,0 +1,23 @@
+.hl{
+    color: #2090F8;
+}
+.ta{
+    margin-left: 10%;
+    border-radius: 20px;
+    margin-top: 3%;
+    background: #000;
+    width: 1281px;
+    height: 408px;
+    flex-shrink: 0;
+}
+.p6{
+    border-radius: 250px;
+    width: 7%;
+    height: 7%;
+    margin-top: 3%;
+    margin-left: 90%;
+
+}
+.custom-input::placeholder {
+    color: white;
+}

@@ -2,8 +2,9 @@ import "./HeaderComponent.css";
 import React, { useState } from 'react';
 import logo1 from "../../assets/images/logo1.png";
 import { Menu } from 'antd';
-import SignInButton from "./components/SignInButton/SignInButton";
+
 import privateRoutes from "../../privateRoutes";
+import SignInButton from "../SignInComponent/SignInButton";
 
 function getItem(label, key, path) {
   return {
@@ -39,7 +40,7 @@ function HeaderComponent({ defaultSelectedKeys }) {
                         </Menu.Item>
                     ))}
         </Menu>
-        <div className="connect-btn">
+        <div className="ms-5 mt-4 mx-3">
         <SignInButton/>
         </div>
 

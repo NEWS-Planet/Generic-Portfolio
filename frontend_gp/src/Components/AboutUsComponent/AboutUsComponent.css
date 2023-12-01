@@ -1,0 +1,53 @@
+.black{
+    margin-left: 38%;
+    width: 25%;
+    height: 25%;
+}
+.tx1{
+    margin-left: 15%;
+    margin-top: -1%;
+    width: 70%;
+    text-align: center;
+    color: black;
+    font-family: "Baskerville Old Face";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.team{
+    margin-top:8%;
+}
+.highlight1 {
+    color: #005FB6;
+}
+
+.t{
+    font-size: 35px;
+    font-family: "Segoe Print";
+    margin-top:10%;
+    margin-left: 37%;
+}
+
+.tx2{
+    font-size: 35px;
+    font-family: "Segoe Print";
+}
+.highlight2 {
+    color: #FFB800;
+}
+
+.test{
+    margin-left: 11%;
+
+}
+.t1{
+    width: 230px; /* Adjust the width and height as needed */
+    height: 230px;
+    border-radius: 50%;
+
+}
+.highlight3{
+    color: #FFFFFF;
+}
