@@ -18,6 +18,8 @@
 
 .team{
     margin-top:8%;
+    text-align: center;
+
 }
 .highlight1 {
     color: #005FB6;
@@ -39,7 +41,10 @@
 }
 
 .test{
-    margin-left: 11%;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 
 }
 .t1{

@@ -33,7 +33,7 @@ function HomePageComponent() {
 
         <br/>
 
-        <Row>
+        <Row justify="center" align="middle">
             <Col className="col1">
                 <p>
                     This website empowers individuals to put their best foot forward and helps businesses find their perfect hires efficiently
@@ -45,7 +45,7 @@ function HomePageComponent() {
             </Col>
         </Row>
 
-        <Row>
+        <Row justify="center" align="middle">
             <Col>
                 <img src={p3} className="p3"/>
             </Col>
@@ -64,7 +64,7 @@ function HomePageComponent() {
         </Row>
 
             <div className="c">
-                <Row>
+                <Row justify="center" align="middle">
                     <Col style={{width:550,marginLeft:250}}>
                 <h4>Connect your portfolio to our Talent Pool for
                     recruiters & companies to find & hire you.</h4>
@@ -84,8 +84,8 @@ function HomePageComponent() {
                 Made for all creatives who want an
                 easy, personalized way to launch their portfolio.
             </h3>
-            <Row>
-                <Col style={{marginLeft:250,marginTop:50}}>
+            <Row justify="center" align="middle">
+                <Col style={{marginTop:50}}>
             <h5>✓ Animators</h5>
             <h5>✓ Architects</h5>
             <h5>✓ Apparel designers</h5>
@@ -121,7 +121,10 @@ function HomePageComponent() {
         </div>
 
           <br/>
-        <Row>
+
+
+        <div>
+        <Row  justify="center" align="middle">
             <Col className="c4">
                 <p className="MadeBy">
                     Made by
@@ -145,6 +148,7 @@ function HomePageComponent() {
                 <p className="NP">via Email</p>
             </Col>
         </Row>
+        </div>
 
 
 

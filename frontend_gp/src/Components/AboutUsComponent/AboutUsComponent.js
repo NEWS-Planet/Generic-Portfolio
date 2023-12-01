@@ -29,7 +29,7 @@ function AboutUsComponent() {
            <br/>
            <br/>
             <div className="test">
-            <Row>
+            <Row justify="center" align="middle">
                 <Col>
                     <img src={nouhaila_OH} className="t1"/>
                 </Col>
@@ -41,7 +41,7 @@ function AboutUsComponent() {
                 </Col>
             </Row>
 
-                <Row>
+                <Row justify="center" align="middle">
                     <Col>
                         <h4 style={{marginLeft:5,marginTop:20}}>Nouhaila OHAPOUNE</h4>
                         <h5 style={{marginLeft:50 ,width:200}}>Company’s leader
@@ -59,7 +59,7 @@ function AboutUsComponent() {
                     </Col>
                 </Row>
 
-                <Row style={{marginTop:150}}>
+                <Row style={{marginTop:150}} justify="center" align="middle">
                     <Col>
                         <img src={emmanuel} className="t1"/>
                     </Col>
@@ -71,7 +71,7 @@ function AboutUsComponent() {
                     </Col>
                 </Row>
 
-                <Row>
+                <Row justify="center" align="middle">
                     <Col>
                         <h4 style={{marginTop:20}}>Emmanuel BABILE TSHIMOMBO</h4>
                         <h5 style={{marginLeft:50 ,width:200}}>Frontend developer
