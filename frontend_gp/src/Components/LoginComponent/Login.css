@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Darker+Grotesque&family=Inter:wght@700&display=swap');
+
+#sign_in{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.ellipse_component{
+    border-radius: 50%;
+    width: 679px;
+    height: 672px;
+    flex-shrink: 0;
+    background: rgba(76, 167, 156, 0.36);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.ellipse_component .login_form{
+    border-radius: 771px;
+    background: rgba(255, 255, 255, 0.72);
+
+    width: 571px;
+    height: 571px;
+    flex-shrink: 0;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.title_card{
+    color: aliceblue;
+    font-family: 'Inter', sans-serif;
+}
+
+.group_line {
+    display: flex; /* Use flexbox to make children inline */
+    align-items: center; /* Align items vertically in the center */
+  }
+
+.group_line .line{
+    width: 172.033px;
+    height: 1px;
+    background-color: #1e1b1b;
+    margin: 10px;
+}
+
+.other_login span {
+    color: #636363;
+}
+
+.other_login{
+    border-radius: 50px;
+}
