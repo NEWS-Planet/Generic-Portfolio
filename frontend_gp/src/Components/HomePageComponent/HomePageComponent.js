@@ -1,5 +1,5 @@
 import "./HomePageComponent.css";
-import React from "react";
+import React, {useState} from "react";
 import HeaderComponent from "../HeaderComponent/HeaderComponent";
 import {Button, Col, Row} from "antd";
 import {Link, useNavigate} from "react-router-dom";
@@ -8,8 +8,19 @@ import p2 from "../../assets/images/p2.png";
 import p3 from "../../assets/images/p3.jpg";
 import LOGO from "../../assets/images/LOGO.jpg";
 import flag from "../../assets/images/flag.png";
+import EmailModal from "./EmailModal";
 function HomePageComponent() {
    const navigate = useNavigate();
+    const [isModalVisible, setIsModalVisible] = useState(false);
+
+    const openModal = () => {
+        setIsModalVisible(true);
+    };
+
+    const closeModal = () => {
+        setIsModalVisible(false);
+    };
+
     const handleLinkClick = () => {
         // Scroll to the top when the link is clicked
         window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -18,6 +29,14 @@ function HomePageComponent() {
         navigate("/talentPool");
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }
+
+    const handleRegister=()=>{
+        navigate("/register");
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+
+
 
 
   return (
@@ -59,7 +78,7 @@ function HomePageComponent() {
                 <p>✓ Photo grids & sliders</p>
                 <p>   ✓ No file size limit</p>
                 <p>   ✓ Custom photo blocks</p>
-                <Button className="signUp-btn">SIGN UP FIRST</Button>
+                <Button className="signUp-btn" onClick={handleRegister}>SIGN UP FIRST</Button>
             </Col>
         </Row>
 
@@ -80,21 +99,21 @@ function HomePageComponent() {
         <br/><br/>
         <div className="c1">
             <br/>
-            <h3 style={{width: 550,marginLeft:550}}>
+            <h3  className="kk">
                 Made for all creatives who want an
                 easy, personalized way to launch their portfolio.
             </h3>
             <Row justify="center" align="middle">
                 <Col style={{marginTop:50}}>
-            <h5>✓ Animators</h5>
-            <h5>✓ Architects</h5>
-            <h5>✓ Apparel designers</h5>
-            <h5>✓ Character designers</h5>
-            <h5>✓ Concept designers</h5>
-            <h5>✓ Character designers</h5>
-            <h5>✓ Art directors</h5>
-            <h5>✓ Painters</h5>
-            </Col>
+                    <h5>✓ Animators</h5>
+                    <h5>✓ Architects</h5>
+                    <h5>✓ Apparel designers</h5>
+                    <h5>✓ Character designers</h5>
+                    <h5>✓ Concept designers</h5>
+                    <h5>✓ Character designers</h5>
+                    <h5>✓ Art directors</h5>
+                    <h5>✓ Painters</h5>
+                </Col>
 
                 <Col style={{marginLeft:300,marginTop:50}}>
                     <h5>✓ Engineers</h5>
@@ -131,33 +150,29 @@ function HomePageComponent() {
                 </p>
                 <p className="NP">NEWS Planet
                     from Morocco</p>
-                <img src={flag} style={{width:70,height:50,borderRadius:30,marginLeft:25}}/>
+                <img src={flag}  className="flag"/>
             </Col>
             <Col className="c5">
                 <p className="MadeBy">
                    About Us
                 </p>
                 <Link to="/aboutUs" className="NP" onClick={handleLinkClick}>
-                   About NEWS PLanet
+                   The company NEWS PLanet
                 </Link>
             </Col>
             <Col className="c6">
                 <p className="MadeBy">
                     Talk to us
                 </p>
-                <p className="NP">via Email</p>
+                <p className="NP" onClick={openModal} style={{ cursor: 'pointer' }}>via Email</p>
+                <EmailModal isVisible={isModalVisible} closeModal={closeModal} />
             </Col>
         </Row>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
         </div>
-
-
-
-
-
-
-
-
-
     </div>
   );
 };

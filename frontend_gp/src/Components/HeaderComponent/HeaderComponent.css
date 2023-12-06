@@ -47,3 +47,21 @@
  border-bottom: 2px solid #2090F8;
  color: #2090F8;
 }
+
+.sign-in-button{
+    width: 137.787px;
+    height: 43px;
+    border-radius: 20px;
+    background: #82B4E1;
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sign-in-button:hover {
+    background: #000000;
+    color: #FFF;
+}

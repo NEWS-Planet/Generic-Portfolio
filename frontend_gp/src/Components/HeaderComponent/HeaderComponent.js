@@ -1,10 +1,10 @@
 import "./HeaderComponent.css";
 import React, { useState } from 'react';
 import logo1 from "../../assets/images/logo1.png";
-import { Menu } from 'antd';
+import {Button, Menu} from 'antd';
 
 import privateRoutes from "../../privateRoutes";
-import SignInButton from "../SignInComponent/SignInButton";
+import {useNavigate} from "react-router-dom";
 
 function getItem(label, key, path) {
   return {
@@ -21,6 +21,11 @@ const MenuItems = [
 
 function HeaderComponent({ defaultSelectedKeys }) {
   const [selectedKeys, setSelectedKeys] = useState(defaultSelectedKeys);
+    const navigate = useNavigate();
+    const signInPage=() => {
+        navigate("/login");
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
 
   const handleMenuClick = ({ key }) => {
     setSelectedKeys([key]);
@@ -41,7 +46,7 @@ function HeaderComponent({ defaultSelectedKeys }) {
                     ))}
         </Menu>
         <div className="ms-5 mt-4 mx-3">
-        <SignInButton/>
+            <Button  onClick={signInPage} className="sign-in-button">Sign in</Button>
         </div>
 
     </div>

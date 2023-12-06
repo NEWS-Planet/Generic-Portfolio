@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Darker+Grotesque&family=Inter:wght@700&display=swap');
+
+body {
+    margin: 0; /* Reset default margin on the body */
+    font-family: 'Inter', sans-serif;
+}
+.return-container {
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: #0062BD;
+    text-decoration: none;
+}
+
+#sign-in-component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(255, 184, 0, 0.27) 0%, #2090F8 100%);
+    width: 100%;
+    height: 100vh; /* Set height to full viewport height */
+}
+
+.ellipse_component {
+    border-radius: 50%;
+    width: 100%; /* Adjust as needed */
+    max-width: 690px; /* Set a maximum width */
+    height: 100%; /* Adjust as needed */
+    max-height: 680px; /* Set a maximum height */
+    flex-shrink: 0;
+    background: rgba(76, 167, 156, 0.36);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}
+
+.ellipse_component .login_form {
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.72);
+    width: 90%; /* Adjust as needed */
+    max-width: 600px; /* Set a maximum width */
+    height: 100%; /* Adjust as needed */
+    max-height: 600px; /* Set a maximum height */
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.title_card {
+    color: aliceblue;
+    text-align: center;
+    margin-right: 5%;
+}
+
+
+.group_line {
+    display: flex; /* Use flexbox to make children inline */
+    align-items: center; /* Align items vertically in the center */
+}
+
+.group_line .line{
+    width: 172.033px;
+    height: 1px;
+    background-color: #1e1b1b;
+    margin: 10px;
+}
+
+.other-login span {
+    color: #000000;
+}
+
+.other-login{
+    border-radius: 50px;
+}
+.other-login:hover {
+    background: linear-gradient(0deg, #0062BD 0%, #0062BD 100%), #313131;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+}
+.other-login span:hover{
+    color: white;
+}
+
+
+.c-input::placeholder {
+    color: black;
+}
+.btn-l{
+    background: linear-gradient(0deg, #0062BD 0%, #0062BD 100%), #313131;
+
+}
+.st{
+    text-align: center;
+    font-size: medium;
+    margin-top: 3%;
+}

@@ -9,7 +9,8 @@ import nouhaila_Z from "../../assets/Team/nouhaila_Z.jpg";
 import emmanuel from "../../assets/Team/emmanuel.jpg";
 import saad from "../../assets/Team/saad.jpg";
 import steve from "../../assets/Team/steve.jpg";
-// import nouhaila_OH from "../../assets/Team/nouhaila_OH.jpg";
+import winny from "../../assets/Team/winny.jpg";
+
 function AboutUsComponent() {
   return (
     <div className="about-us-component">
@@ -34,7 +35,7 @@ function AboutUsComponent() {
                     <img src={nouhaila_OH} className="t1"/>
                 </Col>
                 <Col>
-                    <img src={nouhaila_OH} className="t1" style={{marginLeft:250}}/>
+                    <img src={winny} className="t1" style={{marginLeft:250}}/>
                 </Col>
                 <Col>
                     <img src={steve} className="t1" style={{marginLeft:250}}/>
@@ -44,7 +45,7 @@ function AboutUsComponent() {
                 <Row justify="center" align="middle">
                     <Col>
                         <h4 style={{marginLeft:5,marginTop:20}}>Nouhaila OHAPOUNE</h4>
-                        <h5 style={{marginLeft:50 ,width:200}}>Company’s leader
+                        <h5 style={{marginLeft:40 ,width:200}}>Company’s leader
                                                                Software engineer</h5>
                     </Col>
                     <Col>
@@ -79,12 +80,12 @@ function AboutUsComponent() {
                     </Col>
                     <Col>
                         <h4 style={{marginLeft:130,marginTop:20}}>Nouhaila ZAHRAOUI</h4>
-                        <h5 style={{marginLeft:170,width:200}}>Frontend developer
+                        <h5 style={{marginLeft:150,width:200}}>Backend developer
                             Software engineer</h5>
                     </Col>
                     <Col>
-                        <h4 style={{marginLeft:280,marginTop:20}}>Saad MARJANI</h4>
-                        <h5 style={{marginLeft:280 ,width:200}}>Backend developer
+                        <h4 style={{marginLeft:260,marginTop:20}}>Saad MARJANI</h4>
+                        <h5 style={{marginLeft:260 ,width:200}}>Frontend developer
                             Software engineer</h5>
                     </Col>
                 </Row>
@@ -98,7 +99,11 @@ function AboutUsComponent() {
                 we welcome you to be a part of our journey towards a world where staying informed is effortless and enjoyable. Thank you for choosing NEWS Planet,
                 where news meets simplicity.
             </h4>
-            <img src={logo1} style={{marginTop:200}}/>
+            <img src={logo1} style={{marginTop:120}}/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
         </div>
 
     </div>
