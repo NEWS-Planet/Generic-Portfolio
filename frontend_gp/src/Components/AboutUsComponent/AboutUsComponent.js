@@ -6,7 +6,7 @@ import logo1 from "../../assets/images/logo1.png";
 import {Col, Row} from "antd";
 import nouhaila_OH from "../../assets/Team/nouhaila_OH.jpg";
 import nouhaila_Z from "../../assets/Team/nouhaila_Z.jpg";
-import emmanuel from "../../assets/Team/emmanuel.jpg";
+import emmanuel1 from "../../assets/Team/emmanuel1.jpg";
 import saad from "../../assets/Team/saad.jpg";
 import steve from "../../assets/Team/steve.jpg";
 import winny from "../../assets/Team/winny.jpg";
@@ -62,7 +62,7 @@ function AboutUsComponent() {
 
                 <Row style={{marginTop:150}} justify="center" align="middle">
                     <Col>
-                        <img src={emmanuel} className="t1"/>
+                        <img src={emmanuel1} className="t1"/>
                     </Col>
                     <Col>
                         <img src={nouhaila_Z} className="t1" style={{marginLeft:250}}/>
