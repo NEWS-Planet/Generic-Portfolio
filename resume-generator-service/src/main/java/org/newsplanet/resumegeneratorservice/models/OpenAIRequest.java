@@ -1,4 +1,4 @@
-package org.newsplanet.models;
+package org.newsplanet.resumegeneratorservice.models;
 
 import lombok.Data;
 
