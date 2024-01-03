@@ -34,6 +34,10 @@ function HomePageComponent() {
         navigate("/register");
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }
+    const handlePortfolio=() => {
+        navigate("/portfolio-creation");
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
 
 
 
@@ -43,11 +47,11 @@ function HomePageComponent() {
     <div className="home-page-component">
       <HeaderComponent defaultSelectedKeys={['1']}/>
 
-      <h2> Generic porfolio</h2>
-      <p> the easiest and fast way to Show off Your Work 
+      <h2> Generic portfolio</h2>
+      <p> the easiest and fastest way to Show off Your Work
            Free trial. No credit card required</p>
 
-      <Button className="start-btn">TRY IT FOR FREE </Button>
+      <Button className="start-btn" onClick={handlePortfolio}>TRY IT FOR FREE </Button>
       <img src={p1} className="p1"/>
 
         <br/>
@@ -136,7 +140,7 @@ function HomePageComponent() {
                 </Col>
 
         </Row>
-            <Button className="start-btn" style={{marginTop:26,fontSize:20,height:55,boxShadow:5}}>TRY IT FOR FREE</Button>
+            <Button className="start-btn"  style={{marginTop:26,fontSize:20,height:55,boxShadow:5}}>TRY IT FOR FREE</Button>
         </div>
 
           <br/>

@@ -4,9 +4,15 @@ import HeaderComponent from "../HeaderComponent/HeaderComponent";
 import {Button, Col, Input, Row} from "antd";
 import LOGO from "../../assets/images/LOGO.jpg";
 import { SearchOutlined } from '@ant-design/icons';
+import {useNavigate} from "react-router-dom";
 
 
 function TalentsComponent() {
+    const navigate = useNavigate();
+    const handlePortfolio=() => {
+        navigate("/portfolio-creation");
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
   return (
     <div className="talents-component">
         <HeaderComponent defaultSelectedKeys={['3']}/>
@@ -22,7 +28,9 @@ function TalentsComponent() {
 
                 </Col>
 
-                <Button className="start-btn" style={{marginTop:100,fontSize:30,height:60,width:350,boxShadow:5,fontFamily:"Josefin Sans"}}>Create your portfolio</Button>
+                <Button className="start-btn" style={{marginTop:100,fontSize:30,height:60,width:350,boxShadow:5,fontFamily:"Josefin Sans"}}
+                        onClick={handlePortfolio}>
+                    Create your portfolio</Button>
             </Row>
             <div style={{ display: 'flex',alignItems: 'center'  }}>
             <Input

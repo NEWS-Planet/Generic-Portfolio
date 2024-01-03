@@ -9,8 +9,8 @@ const EmailModal = ({ isVisible, closeModal }) => {
         { email: 'manouha251@gmail.com', text: 'Nouhaila OHAPOUNE' },
         { email: 'email2@example.com', text: 'Winny Baraka MADERISHA' },
         { email: 'email3@example.com', text: 'Steve YANYARA DESIRE' },
-        { email: 'email4@example.com', text: 'Emmanuel BABILE TSHIMOMBO' },
-        { email: 'email5@example.com', text: 'Nouhaila ZAHRAOUI' },
+        { email: 'emmanuelbabile@gmail.com', text: 'Emmanuel BABILE TSHIMOMBO' },
+        { email: 'zehraoui.1998@gmail.com', text: 'Nouhaila ZAHRAOUI' },
         { email: 'email6@example.com', text: 'Saad MARJANI' }
     ];
 

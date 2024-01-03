@@ -1,4 +1,3 @@
-import './App.css';
 import HomePageComponent from "./Components/HomePageComponent/HomePageComponent";
 import {Route, Routes} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -6,6 +5,8 @@ import AboutUsComponent from "./Components/AboutUsComponent/AboutUsComponent";
 import TalentsComponent from "./Components/TalentsComponent/TalentsComponent";
 import LoginComponent from "./Components/LoginComponent/LoginComponent";
 import RegisterComponent from "./Components/registerComponent/registerComponent";
+import PortfolioCreation from "./Components/PortfolioComponent/PortfolioCreation";
+import ProfilePage from "./Components/ProfileComponent/ProfilePage";
 
 
 function App() {
@@ -19,6 +20,10 @@ function App() {
           <Route path="/talentPool" element={<TalentsComponent/>}/>
           <Route path="/login" element={<LoginComponent/>}/>
           <Route path="/register" element={<RegisterComponent/>}/>
+          <Route path="/portfolio-creation" element={<PortfolioCreation/>} />
+          {/*<Route path="/your-portfolio" element={<ShowPortfolio/>} />*/}
+          <Route path="/my-profile" element={<ProfilePage/>} />
+
       </Routes>
 
     </div>

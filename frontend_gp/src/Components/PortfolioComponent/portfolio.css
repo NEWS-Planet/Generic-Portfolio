@@ -1,0 +1,365 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300&family=Mukta:wght@200;300;400;500;600&display=swap");
+
+.stepper-component{
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(180deg, rgba(255, 184, 0, 0.27) 0%, #2090F8 100%);
+}
+
+.app-container {
+    margin-top: 8%;
+    margin-left: 3%;
+    width: 93%; /* Adjust the width as needed */
+    height: 17%;
+    padding: 20px;
+    background-color: #f0f0f0; /* Gray background color */
+    border-radius: 10%;
+
+
+}
+
+ant-steps-item-title{
+    font-size:20px;
+}
+
+.center{
+    margin-left: 35%;
+    margin-top: 2%;
+}
+.logo{
+    border-radius: 50%;
+    width: 10%;
+    height: 13%;
+    margin-top: 7%;
+    margin-left: 84%;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: "Montserrat", sans-serif;
+}
+
+/* PARTIE MAIN */
+.main {
+    width: 100%;
+    background-color: #0f0f0f;
+    min-height: 100vh;
+}
+
+/* HEADER */
+.main header {
+    width: 100%;
+    background-color: #282828;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+    height: 300px;
+}
+
+/* HEADER LEFT */
+.main header .left {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+.main header .left img {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.main header .left .contacts {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+Button{
+    margin-right: 6%;
+}
+.main header .left .contacts .contact-item {
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #3a3939;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.main header .left .contacts .contact-item:hover {
+    background-color: #535353;
+}
+
+/* HEADER RIGHT */
+.main header .right .contact-btn {
+    background-color: #0d6e3e;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+/* Body container */
+.main .body-container {
+    width: 100%;
+    padding: 70px 100px;
+    display: flex;
+}
+
+/* Body left part */
+.main .body-container .left {
+    width: 70%;
+}
+
+.main .body-container .left section {
+    background-color: #282828;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.main .body-container .left section article h2 {
+    margin-bottom: 15px;
+}
+
+.main .body-container .left section article p {
+    text-align: justify;
+}
+
+.main .body-container .left section.projects article {
+    margin-top: 25px;
+    width: 100%;
+}
+
+.main .body-container .left section.projects article img.featured-img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.main .body-container .left section.projects article .project-info h3 {
+    margin: 20px 0;
+}
+
+.main .body-container .left section.projects article .project-info p {
+    text-align: justify;
+}
+
+.main
+.body-container
+.left
+section.projects
+article
+.project-info
+.project-link {
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main
+.body-container
+.left
+section.projects
+article
+.project-info
+.project-link
+.btn {
+    background-color: #0d6e3e;
+    color: #ffffff;
+}
+
+.main .body-container .left section.projects article.article-item {
+    display: flex;
+}
+
+.main .body-container .left section.projects article.article-item .left {
+    width: 35%;
+    margin-right: 10px;
+}
+
+.main .body-container .left section.projects article.article-item .left img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.main .body-container .left section.projects article.article-item .right {
+    width: 75%;
+}
+
+.main .body-container .left section.projects article.article-item .right p {
+    margin: 10px 0;
+    text-align: justify;
+}
+
+.main .body-container .left section.experiences article {
+    margin: 10px 0;
+}
+
+/* body aside */
+aside {
+    width: 29%;
+    margin-right: 10px;
+    color: #ffffff;
+}
+
+aside .section {
+    width: 100%;
+    background-color: #282828;
+    padding: 15px;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+aside .contacts .contact-item {
+    margin: 15px 0;
+}
+
+aside .contacts .contact-item span {
+    margin-left: 10px;
+}
+
+aside .contacts .contact-item span a {
+    color: #0d6e3e;
+}
+
+aside .section p {
+    margin: 10px 0;
+}
+
+/* Skills */
+aside .section .skills {
+    display: flex;
+    flex-direction: column;
+}
+
+aside .section .skills .skill {
+    margin: 10px 0;
+}
+
+aside .section .skills .skill .full {
+    width: 100%;
+    height: 15px;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+aside .section .skills .skill .full .percent {
+    height: 100%;
+    background-color: #0d6e3e;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+aside .section .skill .full .first {
+    width: 95%;
+}
+
+aside .section .skill .full .second {
+    width: 90%;
+}
+
+aside .section .skill .full .third {
+    width: 90%;
+}
+
+aside .section .skill .full .forth {
+    width: 85%;
+}
+
+aside .section .education-item {
+    margin: 10px 0;
+}
+
+aside .section .education-item span {
+    font-size: 14px;
+}
+
+aside .section .language-item {
+    margin: 15px 0;
+}
+
+aside .section .language-item .full {
+    width: 100%;
+    height: 15px;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+aside .section .language-item .percent {
+    background-color: #0d6e3e;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+aside .section .language-item .first {
+    width: 99%;
+}
+
+aside .section .language-item .second {
+    width: 85%;
+}
+
+/* FOOTER */
+footer {
+    background-color: #282828;
+    text-align: center;
+    color: #ffffff;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Les media queries */
+@media (max-width: 610px) {
+    .main header {
+        flex-direction: column;
+        padding: 25px 0;
+        height: 400px;
+    }
+    .main header .left {
+        flex-direction: column;
+        text-align: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1000px) {
+    .main .body-container {
+        flex-direction: column;
+        padding: 50px 30px;
+    }
+
+    .main .body-container .left {
+        width: 100%;
+    }
+
+    aside {
+        width: 100%;
+    }
+}
+
+@media (max-width: 740px) {
+    .main .body-container .left section.projects article.article-item {
+        flex-direction: column;
+    }
+
+    .main .body-container .left section.projects article.article-item .left {
+        width: 100%;
+    }
+
+    .main .body-container .left section.projects article.article-item .right {
+        width: 100%;
+    }
+}

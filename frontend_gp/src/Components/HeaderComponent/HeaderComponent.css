@@ -14,12 +14,23 @@
     left: 15px;
 
 }
+.ant-menu-overflow.ant-menu.ant-menu-root.ant-menu-horizontal.ant-menu-light.menu_items.css-dev-only-do-not-override-17sses9{
+    height: 47.833333px;
+    margin-left: 15%;
+    margin-top: 20px;
+    width:525px;
+    margin-right: 9%;
+}
+.ant-menu-overflow.ant-menu.ant-menu-root.ant-menu-horizontal.ant-menu-light.menu_items.css-dev-only-do-not-override-17sses9::before{
+    margin-bottom:-3%;
+}
 
 .ant-menu-overflow.ant-menu.ant-menu-root.ant-menu-horizontal.ant-menu-light.css-dev-only-do-not-override-nllxry{
-    height: 47.833333px;
-    margin-left: 28%;
+    height: 37.833333px;
+    margin-left: 15%;
     margin-top: 20px;
-    width:450px; 
+    width:450px;
+    margin-right: 10%;
 
 }
 .ant-menu-overflow-item.ant-menu-item.ant-menu-item-only-child{
@@ -27,6 +38,7 @@
    font-size: 26px;
    font-style: normal;
     font-weight: 400;
+
 }
 
 .ant-menu-overflow-item.ant-menu-item.ant-menu-item-only-child{
