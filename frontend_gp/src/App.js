@@ -1,6 +1,7 @@
 import HomePageComponent from "./Components/HomePageComponent/HomePageComponent";
 import {Route, Routes} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 import AboutUsComponent from "./Components/AboutUsComponent/AboutUsComponent";
 import TalentsComponent from "./Components/TalentsComponent/TalentsComponent";
 import LoginComponent from "./Components/LoginComponent/LoginComponent";

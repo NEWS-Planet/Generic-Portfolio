@@ -140,7 +140,9 @@ function HomePageComponent() {
                 </Col>
 
         </Row>
-            <Button className="start-btn"  style={{marginTop:26,fontSize:20,height:55,boxShadow:5}}>TRY IT FOR FREE</Button>
+            <Button className="start-btn"
+                    style={{marginTop:26,fontSize:20,height:55,boxShadow:5}}
+                    onClick={handlePortfolio}>TRY IT FOR FREE</Button>
         </div>
 
           <br/>
