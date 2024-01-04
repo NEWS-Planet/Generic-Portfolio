@@ -138,6 +138,7 @@ function PortfolioCreation() {
                 Return
             </div>
             <img className="logo" src={LOGO} />
+            <h3>Follows the steps to create your portfolio </h3>
             <div className="app-container">
                 <Steps current={currentStep} style={{ marginBottom: "20px"}}>
                     {steps.map((step, index) => (

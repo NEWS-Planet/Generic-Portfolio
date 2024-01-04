@@ -32,7 +32,8 @@ function HeaderComponent({ defaultSelectedKeys }) {
     };
 
     return (
-        <div className="header-container">
+        <div className="header-container" justify="center" align="middle">
+
             <img src={logo1} alt="Logo" className="logo_gp"/>
 
             <Menu mode="horizontal" className="menu_items"
@@ -45,7 +46,7 @@ function HeaderComponent({ defaultSelectedKeys }) {
                     </Menu.Item>
                 ))}
             </Menu>
-            <div className="ms-5 mt-4 mx-3">
+            <div className="mt-4 ">
                 <Button  onClick={signInPage} className="sign-in-button">Sign in</Button>
             </div>
 

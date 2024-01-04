@@ -71,6 +71,8 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-right:2%;
+    margin-left:70%;
 }
 
 .sign-in-button:hover {
